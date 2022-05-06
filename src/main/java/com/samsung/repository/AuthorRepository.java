@@ -1,4 +1,9 @@
 package com.samsung.repository;
 
-public interface AuthorRepository {
+import com.samsung.domain.Author;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AuthorRepository extends JpaRepository<Author, Integer> {
+
+
 }
